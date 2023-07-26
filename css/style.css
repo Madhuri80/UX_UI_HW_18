@@ -1,0 +1,147 @@
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+    /*border: 2px solid red;*/
+    
+}
+.logo {
+    /*width: 43%;*/
+    padding:10px;
+    background-color: #BEF9FC;
+    margin: 0 auto;
+   
+}
+
+name {
+   
+   padding:.70%; 
+    width:auto;
+    background-color: #BEF9FC;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align:middle;
+    font-family: "Manrope", Sans-serif;
+    font-size:24px;
+    font-weight:525;
+   margin-left:25px ;
+}
+.logo  img{
+    width: 70px;
+    height:70px;
+    
+}
+
+
+    
+nav {
+    width:60%;
+   padding:0.75%;  
+    background-color: #BEF9FC;
+    margin: 0 auto;
+    float: right;
+    
+    
+   
+    }
+
+nav ul {
+    width:250px;
+    float: right;
+    background-color: #BEF9FC;
+    
+}
+nav ul li{
+    text-align:center;
+    font-family: "Manrope", Sans-serif;
+    font-size: 18px;
+    color:#333333;
+    background-color: #BEF9FC;
+
+}
+
+.heroimg {
+    height: 700px;
+    padding:25px;
+    
+}
+.content {
+    width:600px;
+    
+    margin:0 auto;
+    text-align:center;
+    box-shadow: 4px 4px 6px #888888;
+    
+    
+    }
+
+.content img {
+        
+        width:400px;
+        margin-top: 15px;
+       
+        }
+h1 {
+    font-family: "Manrope", Sans-serif;
+    color:#008080;
+}
+
+p {
+    font-family: "Manrope", Sans-serif; 
+    color:#333333; 
+}
+
+ button {
+    background-color: #333333;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Manrope", Sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    margin-bottom: 15px;
+
+   
+ }
+.button:hover {
+background-color: #008080;
+color: white;
+ }
+
+
+footer {
+    background-color: #BEF9FC;
+    padding: 1%;
+    position:fixed;
+    position:sticky;
+    /*border: 2px solid red;*/
+    
+}
+header {
+    background-color: #BEF9FC;
+    padding: 1%;
+    position:fixed;
+    position:sticky;
+    
+    
+    
+}
+footer ul {
+    display:inline-block;
+    vertical-align: top;
+    background-color: #BEF9FC;
+}
+
+footer ul li {
+    padding: left 20px;
+    padding:right 20px;
+    text-align:center;
+    font-family: "Manrope", Sans-serif;
+    font-size: 18px;
+    color:#333333;
+    background-color: #BEF9FC;
+
+}
