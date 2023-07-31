@@ -60,8 +60,10 @@ nav ul li{
 }
 
 .heroimg {
-    height: 700px;
-    padding:25px;
+    height:700px;
+    padding:30px;
+    
+    background-image: linear-gradient(to bottom, #FFFFFF, #E1E1E1);
     
 }
 .content {
@@ -80,12 +82,12 @@ nav ul li{
         margin-top: 15px;
        
         }
-h1 {
+.content h1 {
     font-family: "Manrope", Sans-serif;
     color:#008080;
 }
 
-p {
+.content p {
     font-family: "Manrope", Sans-serif; 
     color:#333333; 
 }
@@ -111,12 +113,153 @@ background-color: #008080;
 color: white;
  }
 
+ 
+ 
+.flexContainer {
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    
+    
+
+}
+#mySkills {
+    background-image: linear-gradient(to bottom,#E1E1E1, #D9D9D9);
+      
+}
+
+#mySkills h1 {
+    text-align: center;
+    font-size:50px;
+    margin-top: -1.65%; 
+    font-family: "Manrope", Sans-serif;
+    color:#008080;
+ }
+.skillCard {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width:30%;
+    text-align: center;
+    /*outline: 1px solid red;*/
+   
+}
+
+
+.skillCard img {
+    
+    width:100%;
+    /*outline: 1px solid red;*/
+   
+}
+.skillCard p {
+   
+    text-align:justify;
+    
+    font-size: 20px;
+  
+ 
+}
+#myWork-Grid h1 {
+    text-align: center;
+    font-size: 50px;
+    padding:2%;
+    justify-items: center;
+    font-family: "Manrope", Sans-serif;
+    color:#008080;
+}
+#myWork-Grid {
+    display:grid;
+    grid-template-rows: max-content 3fr 3fr 3fr max-content;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #D9D9D9, #008080);
+    
+
+}
+.Project-card {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    column-gap:0.5%;
+    padding:0% 0% 0% 10%;
+
+}
+.project-details {
+    width:70%;
+    justify-content: center;
+   
+}
+.cs_mockup {
+    width:70%;
+    padding:2%
+}
+.project-details button {
+    
+   position: relative;
+   top: 10%; 
+    left: 50%;
+   -ms-transform: translate(-30%, -70%);
+    transform: translate(-50%, -50%);
+
+}
+#myWork-Grid h4 {
+    text-align: right;
+    padding:0% 25% 0% 0%;
+  
+
+    
+}
+#contact-Grid {
+    display:grid;
+    background-image: linear-gradient(to bottom, #008080, #3C9D9D);
+    height:500px;
+    
+
+}
+
+
+
+#contact-Grid h1{
+    text-align: center;
+    font-size: 50px;
+    color:#333333;
+    justify-items: center; 
+    
+}
+
+
+
+.contact-card {
+    display:grid;
+    grid-template-columns: 50% 50%; 
+    column-gap:0.5%;
+    text-align: center;
+   
+
+   
+
+}
+
+.email {  
+    width:100%;
+    justify-content: center;
+    font-size: larger;
+}
+
+.myLinkedin{
+    width:100%;
+    justify-content: center;  
+    font-size: larger;
+}
+
+   
+    
+
 
 footer {
     background-color: #BEF9FC;
     padding: 1%;
-    position:fixed;
-    position:sticky;
+    /*position:fixed;*/
+    /*position:sticky;*/
     /*border: 2px solid red;*/
     
 }
@@ -133,6 +276,7 @@ footer ul {
     display:inline-block;
     vertical-align: top;
     background-color: #BEF9FC;
+   
 }
 
 footer ul li {
@@ -143,5 +287,92 @@ footer ul li {
     font-size: 18px;
     color:#333333;
     background-color: #BEF9FC;
+
+}
+@media screen and (max-width:600px) {
+
+    .logo {
+        width:50%;
+        margin-left:0;
+    }
+    .logo img {
+        width:50px;
+        height:50px;
+    }
+    name {
+       
+       
+        text-align: center;
+        
+    }
+    nav {
+        width:40%;
+        float:center;
+        text-align: center;
+    }
+    nav ul {
+        width:100%;
+        
+    }
+    nav ul li{
+        display:block;
+        margin:10px 0;
+    }
+
+
+    .flexContainer {
+        flex-direction: column;
+        align-items: center;
+
+    }
+        
+
+    .skillCard {
+      width:75%;
+      
+    }
+    #myWork-Grid {
+        align-content:center;
+    }
+    .Project-card {
+      grid-template-rows:max-content 1fr 1fr;
+        grid-template-columns: 100%;
+        align-content:center;
+    }
+    
+    .contact-card {
+        grid-template-rows:max-content 1fr 1fr;
+        grid-template-columns: 100%;
+    }
+    .footer ul {
+        float:center;
+    }
+    .content {
+        width:400px;
+       
+    }
+    
+    .heroimg {
+        height:500px;
+        padding:10%;
+        
+    }
+    .content img {
+        
+        width:200px;
+        margin-top: 15px;
+  
+    }
+    .content p {
+        font-family: "Manrope", Sans-serif; 
+        color:#333333; 
+        font-size: 14px;
+    }
+    
+    #myWork-Grid h4 {
+        text-align:center;
+        padding:0%
+
+
 
 }
