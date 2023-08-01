@@ -335,9 +335,11 @@ footer ul li {
         align-content:center;
     }
     .Project-card {
-      grid-template-rows:max-content 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-template-columns: 100%;
-        align-content:center;
+        align-content: center;
+        justify-items: center;
+        padding: 0% 0% 0% 0%;
     }
     
     .contact-card {
@@ -375,4 +377,5 @@ footer ul li {
 
 
 
+}
 }
